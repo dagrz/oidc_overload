@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Configure AWS
         run: |
-          export AWS_ROLE_ARN=arn:aws:iam::118325176989:role/lambda-role-default-ci
+          export AWS_ROLE_ARN=arn:aws:iam::630681592166:user/bitmovinCustomerS3Access
           export AWS_WEB_IDENTITY_TOKEN_FILE=/tmp/awscreds
           export AWS_DEFAULT_REGION=us-east-1
 
